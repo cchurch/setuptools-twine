@@ -31,7 +31,7 @@ If you're a package author or maintainer looking to automate even more, you can 
 Then, create an |alias|_ command to encapsulate multiple ``setup.py`` commands in one::
 
   [aliases]
-  pypi_upload = clean check sdist bdist_wheel twine_check twine_upload
+  pypi_upload = clean sdist bdist_wheel twine_check twine_upload
 
 Now, you can build, check, and upload with a single command::
 
