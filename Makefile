@@ -45,8 +45,12 @@ dev-build: clean-pyc
 release-build: clean-pyc
 	python setup.py release_build
 
+.PHONY: clean-test-project
+clean-test-project:
+	rm -rf test_project/*.egg-info test_project/.eggs test_project/build test_project/dist
+
 .PHONY: clean-tox
-clean-tox:
+clean-tox: clean-test-project
 	rm -rf .tox
 
 .PHONY: tox

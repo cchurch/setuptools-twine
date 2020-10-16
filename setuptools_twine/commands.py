@@ -17,7 +17,8 @@ class BaseTwineCommand(Command):
             self.run_command(sub_cmd)
             self.get_finalized_command(sub_cmd)
         dist_files = [df[2] for df in self.distribution.dist_files]
-        self.spawn(['twine', self.twine_subcommand] + dist_files)
+        from twine.cli import dispatch
+        self.execute(dispatch, args=([self.twine_subcommand] + dist_files,))
 
     sub_commands = [
         ('sdist', lambda self: True),
