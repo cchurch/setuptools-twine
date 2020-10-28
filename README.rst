@@ -1,4 +1,4 @@
-|PyPI Version| |Python Versions| |License|
+|Build Status| |PyPI Version| |Python Versions| |License|
 
 setuptools-twine
 ================
@@ -45,6 +45,8 @@ Roadmap
 * Allow uploading other output formats in addition to source distributions and wheels.
 
 
+.. |Build Status| image:: http://img.shields.io/travis/cchurch/setuptools-twine.svg
+   :target: https://travis-ci.org/cchurch/setuptools-twine
 .. |PyPI Version| image:: https://img.shields.io/pypi/v/setuptools-twine.svg
    :target: https://pypi.python.org/pypi/setuptools-twine
 .. |Python Versions| image:: https://img.shields.io/pypi/pyversions/setuptools-twine.svg
