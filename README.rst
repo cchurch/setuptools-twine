@@ -44,9 +44,8 @@ Roadmap
 * Allow using only source distributions or wheels, instead of both.
 * Allow uploading other output formats in addition to source distributions and wheels.
 
-
-.. |Build Status| image:: http://img.shields.io/travis/cchurch/setuptools-twine.svg
-   :target: https://travis-ci.org/cchurch/setuptools-twine
+.. |Build Status| image:: https://img.shields.io/github/workflow/status/cchurch/setuptools-twine/test
+   :target: https://github.com/cchurch/setuptools-twine/actions?query=workflow%3Atest
 .. |PyPI Version| image:: https://img.shields.io/pypi/v/setuptools-twine.svg
    :target: https://pypi.python.org/pypi/setuptools-twine
 .. |Python Versions| image:: https://img.shields.io/pypi/pyversions/setuptools-twine.svg
